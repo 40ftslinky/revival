@@ -86,7 +86,10 @@ canvas {
 
   .svg_wrap {}
   
-
+  .h2_wrap h2 {
+    line-height: 0.6;
+    margin-bottom: 0;
+  }
 
   /* animate */
 
@@ -96,6 +99,7 @@ canvas {
     /* filter:blur(50px); */
     transform: translateY(20%) scale(0.8,0.8);
     transition: all 250ms linear;
+    display: block;
 }
 
 .show {
