@@ -109,6 +109,32 @@ canvas {
 
 }
 
+.logo_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-bottom: 2rem;
+}
+
+.logo_wrap a {
+    cursor: pointer;
+    transform: scale(1);
+    transform-origin: center;
+    transition: var(--transition);
+} 
+
+.logo_wrap a:hover {
+  transform: scale(1.05);
+} 
+
+
+.partner_logo {
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    max-width: 150px;
+}
 
 /* -------------------------------- */
 

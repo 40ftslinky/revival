@@ -99,3 +99,5 @@
 //       });
 // });
 
+// imporve this with:
+// https://codepen.io/cameronknight/pen/WNwZORV
